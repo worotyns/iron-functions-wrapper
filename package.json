@@ -1,6 +1,6 @@
 {
   "name": "iron-functions-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "iron functions node wrapper",
   "main": "stack.js",
   "scripts": {
