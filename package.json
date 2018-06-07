@@ -1,0 +1,25 @@
+{
+  "name": "iron-functions-wrapper",
+  "version": "1.0.0",
+  "description": "iron functions node wrapper",
+  "main": "stack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/worotyns/iron-functions-wrapper.git"
+  },
+  "keywords": [
+    "iron",
+    "functions",
+    "wrapper",
+    "node"
+  ],
+  "author": "mateusz wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/worotyns/iron-functions-wrapper/issues"
+  },
+  "homepage": "https://github.com/worotyns/iron-functions-wrapper#readme"
+}
