@@ -18,8 +18,6 @@ module.exports = async function(fn) {
     response = { error: error.message }
   }
 
-  console.error(response);
-
   if (typeof response === 'object') {
     response = JSON.stringify(response);
   }
