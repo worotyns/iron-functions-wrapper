@@ -10,16 +10,20 @@ module.exports = async function(fn) {
     body = {}
   }
 
+  console.error(body)
+
   try {
     response = await fn(body) || {};
   } catch(error) {
     response = { error: error.message }
   }
 
-  if (typeof response === 'string') {
-    console.log(response);
-  } else {
-    console.log(JSON.stringify(response));
+  console.error(response);
+
+  if (typeof response === 'object') {
+    response = JSON.stringify(response);
   }
 
+  console.error(response);
+  console.log(response);
 };
