@@ -10,7 +10,7 @@ module.exports = async function(fn) {
     body = {}
   }
 
-  console.error(body)
+  console.error(JSON.stringify(body));
 
   try {
     response = await fn(body) || {};
